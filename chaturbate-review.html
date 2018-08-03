@@ -19,6 +19,14 @@
     <script src="js/modernizr.js"></script>
   </head>
   <body class="">
+    <div id="fb-root"></div>
+  <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.1';
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
 
 
     <!--[if lt IE 8]>
@@ -276,9 +284,8 @@
                  <div class="single-blog-share-section">
                    <strong>Share :</strong>
 
-                   <a href="https://www.facebook.com/sharer/sharer.php?u=">
-                     <span class="badge badge-secondary share-facebook" data-toggle="tooltip" data-placement="top" title="Share This Blog in Facebook"><i class="fa fa-facebook" aria-hidden="true"></i>facebook</span>
-                   </a>
+                   <div class="fb-share-button" data-href="http://www.camasutra.us/chaturbate-review.html" data-layout="button" data-size="large" data-mobile-iframe="true"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fwww.camasutra.us%2Fchaturbate-review.html&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div>
+                   
                    <a href="https://twitter.com/intent/tweet">
                      <span class="badge badge-secondary share-twitter" data-toggle="tooltip" data-placement="top" title="Share This Blog in Twitter"><i class="fa fa-twitter" aria-hidden="true"></i>twitter</span>
                    </a>
